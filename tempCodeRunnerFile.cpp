@@ -1,1 +1,1 @@
- std::getline(std::cin,fullname); 
+srand(time(NULL));
