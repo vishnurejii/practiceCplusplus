@@ -12,6 +12,7 @@ int main(){
     {
         std::cout<<"enter a num between (1-100 :)\n";
         std::cin>>guess;
+         tries++;
 
         if(guess > num){
             std::cout<<"too high!";
@@ -22,7 +23,7 @@ int main(){
         }else{
             std::cout<<"CORRECT # of tries "<<tries;
         }
-        tries++;
+       
         
     } while (guess != num);
 
