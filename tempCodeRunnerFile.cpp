@@ -1,1 +1,14 @@
-srand(time(NULL));
+#include<iostream>
+template<typename T,typename U>
+
+
+auto max(T num1,U num2){
+
+    return(num1>num2)?num1:num2;
+
+}
+int main(){
+
+    std::cout<<max(1,2.1);
+     
+}
