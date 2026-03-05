@@ -35,6 +35,12 @@ int main(){
     std::cout<<cube.area<<"\n";
     std::cout<<cube.volume<<"\n";
 
+    Square square(10);
+
+    std::cout<<square.area<<"\n";
+    std::cout<<square.volume<<"\n";
+
+
 return 0;
 
 }
